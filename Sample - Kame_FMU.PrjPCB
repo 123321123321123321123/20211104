@@ -412,6 +412,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document22]
+DocumentPath=EditScript1.pas
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=63E29B80-7C65-4869-9DC8-9D9F682BC880
 Description=Default
@@ -512,6 +529,9 @@ SaveSettingsToOutJob=-1
 
 [Generic_EDE]
 OutputDir=
+
+[Generic_ScriptingSystem]
+StartProcName=EditScript1.pas>HelloWorld
 
 [OutputGroup1]
 Name=Netlist Outputs
