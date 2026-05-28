@@ -3,8 +3,8 @@ Procedure HelloWorld;
     S     : String;
     Value : Integer;
 Begin
-    ShowMessage('Hello world!');
-    RunApplication('cmd');
+  //  ShowMessage('Hello world!');
+  //  RunApplication('cmd');
 
     //refresh GIT
     //ObjectKind=FocusedProject|Action=RefreshProject|TestConnection=True|ExecuteFetch=Tru
