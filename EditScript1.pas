@@ -4,7 +4,7 @@ Procedure HelloWorld;
     Value : Integer;
 Begin
   //  ShowMessage('Hello world!');
-  //  RunApplication('cmd');
+    RunApplication('cmd ');
 
     //refresh GIT
     //ObjectKind=FocusedProject|Action=RefreshProject|TestConnection=True|ExecuteFetch=Tru
