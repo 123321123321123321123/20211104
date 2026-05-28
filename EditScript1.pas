@@ -8,12 +8,15 @@ Begin
 
     //refresh GIT
     //ObjectKind=FocusedProject|Action=RefreshProject|TestConnection=True|ExecuteFetch=Tru
+    //ObjectKind=FocusedDocument|Action=RefreshProject|TestConnection=True
     ResetParameters;
-    AddStringParameter('ObjectKind','FocusedProject');
+    AddStringParameter('ObjectKind','FocusedDocument');
     AddStringParameter('Action','RefreshProject');
-    AddStringParameter('TestConnection','True');
+ //   AddStringParameter('TestConnection','True');
     AddStringParameter('ExecuteFetch','True');
     RunProcess('VersionControl:VersionControl');
+
+
 End;
 
 
